@@ -16,3 +16,26 @@ page](https://docs.github.com/en/get-started/writing-on-github/working-with-adva
 might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
+
+--------------------------------------------------------------------------------
+
+Definition of little-o:
+$f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
+
+Definition of big-O:
+$f(n)\in O(g(n) \iff \exists c, n_0, \forall n\ge n_0: f(n) < c g(n)$
+
+These two definitions are fairly similar however there is a key difference.
+
+Proof:
+
+Assume that a function $f(n)$ belongs to $o(g(n))$ if for all positive constants, c, there exists an $n_0$ such that for all $n \ge n_0$: $f(n) < c g(n)$
+
+Then since the definition states that a function $f(n)$ belongs to $O(g(n))$ if there exists _any_ constant $c$ it follows that if a function $f(n)$ is apart of $o(n)$ then it is also apart of $O(g(n))$
+
+
+
+
+
+
+
