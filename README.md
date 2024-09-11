@@ -34,7 +34,7 @@ Assume that a function $f(n)$ belongs to $o(g(n))$ if for all positive constants
 Then since the definition states that a function $f(n)$ belongs to $O(g(n))$ if there exists _any_ constant $c$ it follows that if a function $f(n)$ is apart of $o(n)$ then it is also apart of $O(g(n))$
 
 
-
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
 
 
 
