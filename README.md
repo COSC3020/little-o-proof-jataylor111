@@ -25,7 +25,7 @@ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 Definition of big-O:
 $f(n)\in O(g(n) \iff \exists c, n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-These two definitions are fairly similar however there is a key difference.  Little-o uses for all constants "c" while big-O uses there exists a constant "c" so only one constant c needs to exist for the function f(n) to be in big-O
+These two definitions are fairly similar however there are a couple differences.  First, Little-o uses for all constants "c" while big-O uses there exists a constant "c" so only one constant c needs to exist for the function f(n) to be in big-O.  Secondly, big-O is considered a "loose bound" where the growth is at its limit, a sort of maximum possible behavior so to speak, while little-o is strict, a hard limit on what the asymptotic behavoir can be.
 
 Proof:
 
